@@ -9,10 +9,6 @@
 	font-weight: bold;
 }
 
-body {
-    font-family:  Montserrat, Arial, sans-serif;
-}
-
 #logo {
 	width:150px;
 }
@@ -33,18 +29,18 @@ header {
 }
 
 #callToAction {
-    margin-top: 7vh;
-    font-weight: bold;
-    color: white;
-    margin-left: 8vh;
-    font-size: 25px;
-    width: 70%;
+	margin-top: 285px;
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: bold;
+	color: white; 
+	margin-left: 6%;
+	font-size: 25px;
 }
 
 #callToAction h1
 {
     letter-spacing: 8px;
-    font-size: 3em;
+    font-size: 100px;
     font-weight: inherit;
 }
 
@@ -56,7 +52,7 @@ header {
 .btn {
 	background-color: white;
 	border:1px solid white;
-	border-radius: 15px;
+	border-radius: 15px; 
 	color: black;
 	text-align: center;
 
@@ -67,10 +63,10 @@ header {
 	color: white;
 }
 
-hr {
+hr { 	
     width: 500px;
 	height: 15px;
-	background-color: white;
+	background-color: white; 
 }
 
 img {
@@ -82,6 +78,8 @@ img {
 #fond {
 	background-color: #049ee2;
 	padding: 20px;
+	font-family:  Montserrat, Arial, sans-serif;
+
 }
 
 p {
@@ -103,7 +101,7 @@ ul {
 }
 
 .title {
-    padding: 5%;
+    padding-bottom: 5%;
     color:white;
     font: 40px bold;
 }
@@ -113,21 +111,18 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 5%
 }
 
 .instruction {
+    padding: 10%;
     background:white;
-    border-radius:50%;
-    width:230px;
-    height:230px;
-}
-
-.instruction-content {
+    max-width: 50%;
     text-align: center;
 }
 
 .icon {
-    width:100px;
+    width:25%;
 }
 
 #container-inscriptions div .instruction {
