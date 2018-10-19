@@ -9,6 +9,10 @@
 	font-weight: bold;
 }
 
+body {
+    font-family:  Montserrat, Arial, sans-serif;
+}
+
 #logo {
 	width:150px;
 }
@@ -78,8 +82,6 @@ img {
 #fond {
 	background-color: #049ee2;
 	padding: 20px;
-	font-family:  Montserrat, Arial, sans-serif;
-
 }
 
 p {
