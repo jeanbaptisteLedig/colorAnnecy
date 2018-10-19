@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat/Montserrat-ExtraBold.ttf");
+	font-weight: bold;
+}
+
+#logo {
+	width:150px; 
+}
+
+header {
+	background: url("img/fond1.jpg") no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0.15);
+	text-transform: uppercase;
+}
+
+.navbar a {
+	color: white;
+	font-weight: bold;
+}
+
+#callToAction {
+	margin-top: 285px;
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: bold;
+	color: white; 
+	margin-left: 6%;
+	font-size: 25px;
+}
+
+#callToAction h1
+{
+    letter-spacing: 8px;
+    font-size: 100px;
+    font-weight: inherit;
+}
+
+.text-inverted {
+  	color: transparent;
+   	-webkit-text-stroke: 4px white;
+}
+
+.btn {
+	background-color: white;
+	border:1px solid white;
+	border-radius: 15px; 
+	color: black;
+	text-align: center;
+
+}
+
+.btn-transparent {
+	background-color: rgba(255,255,255,0.5);
+	color: white;
+}
+
+hr { 	
+    width: 500px;
+	height: 15px;
+	background-color: white; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fond {
+	background-color: #049ee2;
+	padding: 20px;
+	font-family:  Montserrat, Arial, sans-serif;
+
+}
+
+p {
+	display: inline;
+}
+
+.partenaires {
+	margin: 120px 0;
+}
+
+
+/*------ JB ---*/
+#img-presentation {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    padding: 5%;
+    color:white;
+    font: 40px bold;
+}
+
+#container-inscriptions {
+    background-image: url("img/aurelien-designatic-240194-unsplash2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instruction {
+    background:white;
+    border-radius:50%;
+    width:230px;
+    height:230px;
+}
+
+.instruction-content {
+    text-align: center;
+}
+
+.icon {
+    width:100px;
+}
+
+#container-inscriptions div .instruction {
+    color:#049EE2;
+}
+/*---- JB -----*/
+
+#news {
+    color: white;
+}
+
+#news h2, #news a {
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+#news article {
+    background-size: cover;
+    border-radius: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+    margin: 84px;
+}
+
+#news article::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.img-snow {
+    background: url('img/news/carina-tysvaer-21855-unsplash.jpg');
+}
+
+.img-golf {
+    background: url('img/news/fancycrave-270973-unsplash.jpg');
+}
+
+.img-aviron {
+    background: url('img/news/josh-calabrese-236920-unsplash.jpg');
+}
+
+.read-news {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.read-news:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.4);
+}
