@@ -30,18 +30,19 @@ header {
 }
 
 #callToAction {
-	margin-top: 285px;
+	margin-top: 10vh;
 	font-family: Montserrat, Arial, sans-serif;
 	font-weight: bold;
-	color: white; 
+	color: white;
 	margin-left: 6%;
 	font-size: 25px;
+    width: 70%;
 }
 
 #callToAction h1
 {
     letter-spacing: 8px;
-    font-size: 100px;
+    font-size: 3em;
     font-weight: inherit;
 }
 
@@ -72,10 +73,10 @@ header {
     color: black;
 }
 
-hr { 	
-    width: 500px;
+hr {
+    width: 60%;
 	height: 15px;
-	background-color: white; 
+	background-color: white;
 }
 
 img {
