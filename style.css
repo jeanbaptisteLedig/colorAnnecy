@@ -10,7 +10,7 @@
 }
 
 #logo {
-	width:150px; 
+	width:150px;
 }
 
 header {
@@ -29,12 +29,12 @@ header {
 }
 
 #callToAction {
-	margin-top: 285px;
-	font-family: Montserrat, Arial, sans-serif;
-	font-weight: bold;
-	color: white; 
-	margin-left: 6%;
-	font-size: 25px;
+    margin-top: 7vh;
+    font-weight: bold;
+    color: white;
+    margin-left: 8vh;
+    font-size: 25px;
+    width: 70%;
 }
 
 #callToAction h1
@@ -52,7 +52,7 @@ header {
 .btn {
 	background-color: white;
 	border:1px solid white;
-	border-radius: 15px; 
+	border-radius: 15px;
 	color: black;
 	text-align: center;
 
@@ -63,10 +63,10 @@ header {
 	color: white;
 }
 
-hr { 	
+hr {
     width: 500px;
 	height: 15px;
-	background-color: white; 
+	background-color: white;
 }
 
 img {
